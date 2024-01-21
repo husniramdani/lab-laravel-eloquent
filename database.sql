@@ -1,6 +1,6 @@
-create database belajar_laravel_eloquent;
+create database lab_laravel_eloquent;
 
-use belajar_laravel_eloquent;
+use lab_laravel_eloquent;
 
 show tables;
 

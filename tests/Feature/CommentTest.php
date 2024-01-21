@@ -21,7 +21,6 @@ class CommentTest extends TestCase
         $comment->save();
 
         self::assertNotNull($comment->id);
-
     }
 
     public function testDefaultAttributeValues()
@@ -37,6 +36,4 @@ class CommentTest extends TestCase
         self::assertNotNull($comment->title);
         self::assertNotNull($comment->comment);
     }
-
-
 }
